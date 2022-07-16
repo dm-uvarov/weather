@@ -4,6 +4,6 @@ import s from './Home.module.scss';
 
 export default function Home() {
   return (
-    <div >Home</div>
+    <div className={s.Home}>Home</div>
   )
 }
