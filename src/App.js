@@ -6,7 +6,7 @@ import Stats from './components/Stats/Stats';
 
 function App() {
   return (
-    <div className="App">weather
+    <div className="App">
       <Header />
 
       <Routes>
