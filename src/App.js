@@ -6,20 +6,15 @@ import Stats from './components/Stats/Stats';
 
 function App() {
   return (
-    <div className="App">
+    <div className="container">
       <Header />
-
       <Routes>
         <Route exact path="/" 
           element = {<Home />}
         /> 
-          
-        
         <Route exact path="/stats" 
           element = {<Stats />} 
         />
-        
-        
       </Routes>
     </div>
   );
